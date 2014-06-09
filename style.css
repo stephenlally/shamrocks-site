@@ -82,7 +82,7 @@ p {
   background-color: #003600;
 } 
 
-#navbar ul li a.active { 
+#navbar ul li active { 
   color: #003600;
   background-color: #fff; 
   border-style:solid;
@@ -116,3 +116,16 @@ p {
   text-align: center;
   color: white;
 }
+
+.league th {
+    font-size: 1.1em;
+    text-align: left;
+    padding: 5px 4px 5px 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+.league tr:nth-child(even) {
+    background-color: #EAF2D3;
+}
+
